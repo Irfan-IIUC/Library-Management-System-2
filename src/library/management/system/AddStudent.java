@@ -136,6 +136,7 @@ public class AddStudent extends JFrame implements ActionListener {
         Random rd = new Random();
         t1.setText("" + rd.nextInt(100000 + 1));
     }
+    
 
     public void actionPerformed(ActionEvent ae) {
 
